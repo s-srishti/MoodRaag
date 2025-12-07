@@ -1,21 +1,29 @@
+# Virtual environments
 myenv/
 env/
 venv/
 
-src/punjabi_mood_model1/
-punjabi_mood_model/
+# Models / big binaries
 *.safetensors
 *.bin
+*.pth
 *.dll
 *.lib
-**/torch/
-**/Lib/site-packages/torch/
+
+# Model folders if you recreate them later
+src/punjabi_mood_model1/
+punjabi_mood_model/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
 .vscode/
 .DS_Store
 Thumbs.db
-~/.cache/huggingface/
-cache/
