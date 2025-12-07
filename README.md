@@ -31,8 +31,8 @@ The system works as a conversational chatbot—users can type lyrics or describe
 - Handles ambiguous mood cases using similarity and fallback logic.
 
 ### Example Interaction
-User: Tuhada mood ya lyrics dasso: Sad
-[Mood Detected: sad | Confidence: 0.23]
+User: Tuhada mood ya lyrics dasso: Sad <br>
+[Mood Detected: sad | Confidence: 0.23] <br>
 Bot: Thoda emotional mood lagda... Violiin by Arshhh sun ke halka feel karega.
 
 ### Project Structure
@@ -49,3 +49,4 @@ Bot: Thoda emotional mood lagda... Violiin by Arshhh sun ke halka feel karega.
 
 
 └── punjabi_mood_model/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       # Saved fine-tuned model
+
